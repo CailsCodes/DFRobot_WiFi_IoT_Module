@@ -15,8 +15,8 @@ uint8_t DFRobot_WiFi_IoT_Module_I2C::begin(void)
     return WIFI_IOT_OK;
   }
   else {
-  DBG("WIFI_IOT_ERROR!");
-  return WIFI_IOT_ERROR;
+    DBG("WIFI_IOT_ERROR!");
+    return WIFI_IOT_ERROR;
   }
 }
 
